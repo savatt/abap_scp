@@ -4,10 +4,10 @@
 @EndUserText.label: 'Brands'
 @Metadata.ignorePropagatedAnnotations: true
 @VDM.viewType: #BASIC
-define view Z_B_BRANDS
+define view z_b_brands
   as select from zrent_brands
 {
   key marca as Marca,
       @UI.hidden: true
-      url   as Imagen
+      url   as Url
 }

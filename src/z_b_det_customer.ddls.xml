@@ -5,7 +5,7 @@
    <DDLS>
     <DDLNAME>Z_B_DET_CUSTOMER</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>Details Customers</DDTEXT>
+    <DDTEXT>Detail Customers</DDTEXT>
     <SOURCE_TYPE>V</SOURCE_TYPE>
    </DDLS>
   </asx:values>

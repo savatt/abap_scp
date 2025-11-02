@@ -1,17 +1,17 @@
-@AbapCatalog.sqlViewName: 'ZV_DET_CUSTOMER'
+@AbapCatalog.sqlViewName: 'ZV_DET_CUST'
 @AbapCatalog.compiler.compareFilter: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
-@EndUserText.label: 'Details Customers'
+@EndUserText.label: 'Detail Customers'
 @Metadata.ignorePropagatedAnnotations: true
 @VDM.viewType: #BASIC
 @Metadata.allowExtensions: true
-define view z_b_det_customer
+define view Z_b_det_customer
   as select from zrent_customers
 {
-  key doc_id    as ID,
-  key placa     as Placa,
-      nombres   as Nombre,
+  key doc_id    as DocId,
+  key matricula as Matricula,
+      nombres   as Nombres,
       apellidos as Apellidos,
-      email     as Correo,
+      email     as Email,
       cntr_type as TipoContrato
 }
